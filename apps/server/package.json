@@ -10,10 +10,11 @@
 		"start": "node dist/index.mjs"
 	},
 	"dependencies": {
-		"@Firebase-App-Check/env": "*",
 		"@fastify/cors": "^11.0.1",
+		"@Firebase-App-Check/env": "*",
 		"dotenv": "^17.2.2",
 		"fastify": "^5.3.3",
+		"firebase-admin": "^13.8.0",
 		"zod": "^4.1.13"
 	},
 	"devDependencies": {
