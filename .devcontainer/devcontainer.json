@@ -1,0 +1,39 @@
+{
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspace",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"editor.formatOnSave": true,
+				"editor.defaultFormatter": "biomejs.biome",
+				"editor.codeActionsOnSave": {
+					"source.fixAll": true
+				},
+
+				"[javascript]": {
+					"editor.defaultFormatter": "biomejs.biome"
+				},
+				"[typescript]": {
+					"editor.defaultFormatter": "biomejs.biome"
+				},
+				"[javascriptreact]": {
+					"editor.defaultFormatter": "biomejs.biome"
+				},
+				"[typescriptreact]": {
+					"editor.defaultFormatter": "biomejs.biome"
+				},
+
+				"[json]": {
+					"editor.defaultFormatter": "biomejs.biome"
+				}
+			},
+			"extensions": [
+				"biomejs.biome",
+				"ms-azuretools.vscode-docker",
+				"anthropic.claude-code"
+			]
+		}
+	},
+	"forwardPorts": [3000, 5173]
+}

@@ -1,0 +1,3 @@
+{
+  "extends": "@Firebase-App-Check/config/tsconfig.base.json"
+}
